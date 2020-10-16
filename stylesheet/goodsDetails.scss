@@ -1,0 +1,393 @@
+.detail-head {
+    width: auto;
+    height: 42px;
+    border-bottom: 1px solid #ddd;
+}
+
+.detail-goods {
+    width: 1200px;
+    margin: auto;
+    line-height: 42px;
+}
+
+.detail-goods a {
+    color: #666;
+    font-size: 13px;
+}
+
+.detail-goods .first:hover {
+    color: rgb(33, 119, 199);
+}
+
+.detail-goods span {
+    color: #ddd;
+    padding-left: 5px;
+}
+
+.detail-content {
+    width: auto;
+    overflow: hidden;
+}
+
+.detail-li {
+    width: 1200px;
+    margin: auto;
+    // border: 1px solid red;
+    margin-top: 40px;
+}
+
+.content-l {
+    width: 500px;
+    height: 630px;
+    cursor: pointer;
+    // border: 1px solid #000;
+    // padding-left: 80px;
+}
+
+.detail-pic {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.glass {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 128, 220, 0.3);
+    display: none;
+}
+
+.big-glass {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 510px;
+    top: 0;
+    // border: 1px solid #000;
+    overflow: hidden;
+    display: none;
+}
+
+#bigPic {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+}
+
+.detail-pic li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.detail-pic li img {
+    width: 500px;
+    height: 500px;
+}
+
+.detail-list {
+    margin: 30px 0px 0px;
+    padding: 0px 0px 0px 50px;
+    overflow: hidden;
+}
+
+.detail-list li {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px 0px 0px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.detail-list li:hover .mask {
+    background: rgba(255, 255, 255, 0);
+}
+
+.detail-list li img {
+    width: 60px;
+    height: 60px;
+}
+
+.detail-list .detail-act {
+    border: 2px solid orangered;
+}
+
+.content-r {
+    width: 610px;
+    cursor: pointer;
+}
+
+.small-bing {
+    width: 36px;
+    height: 36px;
+}
+
+.share {
+    font-size: 12px;
+    margin: 15px 50px;
+}
+
+.qq .iconfont {
+    color: rgb(77, 163, 243);
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+.weixin .iconfont {
+    color: rgb(7, 170, 7);
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.kong {
+    color: #ddd;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.shou .iconfont {
+    color: #ddd;
+    font-size: 18px;
+}
+
+.shou .iconfont:hover {
+    color: orange;
+}
+
+.shou {
+    padding: 0 5px;
+}
+
+.dui .iconfont {
+    color: #ddd;
+    font-size: 18px;
+}
+
+.dui {
+    padding: 0 5px;
+}
+
+
+.zi {
+    padding: 0 6px;
+    border: 1px solid orangered;
+    font-size: 12px;
+    color: rgb(255, 102, 0);
+}
+
+.detail-title {
+    font-size: 22px;
+}
+
+.detail-ps {
+    font-size: 12px;
+    color: rgb(255, 102, 0);
+}
+
+.detail-ps #bao {
+    padding: 0px 6px;
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+    font-size: 10px;
+}
+
+.pirce-box {
+    // height: 80px;
+    background: rgb(242, 242, 242);
+    margin: 15px 0;
+    padding: 8px 18px;
+}
+
+.price-logo {
+    width: 58px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    background: rgb(255, 102, 0);
+    color: #fff;
+}
+
+.info1 {
+    margin-top: 20px;
+}
+
+.b-price {
+    font-size: 30px;
+    color: rgb(255, 102, 0);
+}
+
+.s-pirce {
+    color: #666;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.vip-pirce {
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.kai {
+    font-size: 12px;
+    color: #666;
+}
+
+.org {
+    color: rgb(255, 102, 0);
+}
+
+.dis-tit {
+    color: #666;
+    font-size: 13px;
+    padding-right: 20px;
+}
+
+.dis-con {
+    font-size: 13px;
+    color: #666;
+}
+
+.evaluate-list li {
+    float: left;
+    width: 104px;
+    height: 28px;
+    border: 1px solid #90ebae;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.detail-color {
+    clear: both;
+}
+
+.dis-first {
+    padding: 0 20px 80px 0;
+}
+
+.evaluate {
+    margin-top: 10px;
+    height: 50px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+}
+
+.detail-color,
+.detail-size,
+.detail-num,
+.detail-eare,
+.detail-serve,
+.detail-gong {
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+}
+
+.col-pic {
+    padding: 12px 22px;
+    border: 2px solid rgb(255, 102, 0);
+}
+
+.col-size {
+    padding: 8px 20px;
+    border: 2px solid rgb(255, 102, 0);
+}
+
+.col-jian {
+    padding: 6px 11px;
+    border: 1px solid #ddd;
+}
+
+.col-nummber {
+    padding: 6px 13px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.col-add {
+    padding: 6px 11px;
+    border: 1px solid #ddd;
+}
+
+.jiacu {
+    color: #666;
+}
+
+.di {
+    width: 154px;
+    outline: none;
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+}
+
+.detail-but {
+    margin-top: 15px;
+}
+
+.add-car {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(33, 119, 199);
+    color: #fff;
+    border-radius: 3px;
+}
+
+.mai {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(255, 102, 0);
+    color: #fff;
+    border-radius: 3px;
+}
+
+.add-car:hover {
+    background: rgb(3, 71, 134);
+}
+
+.mai:hover {
+    background: rgb(194, 80, 4);
+}
+
+.detail-footer .iconfont {
+    color: rgb(33, 119, 199);
+}
+
+.detail-footer {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.detail-footer span {
+    padding: 0 3px;
+}
+
+.zhong {
+    z-index: 100;
+}
+
+.detail-li {
+    cursor: pointer;
+}

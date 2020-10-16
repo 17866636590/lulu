@@ -1,0 +1,157 @@
+.register-head {
+  width: auto;
+  height: 44px;
+  background: #0092d8; }
+
+.register-top {
+  margin: auto;
+  width: 1200px; }
+
+.register-pic {
+  margin-top: 2px; }
+
+.register-body {
+  width: auto; }
+
+.register-content {
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  padding: 70px 100px; }
+
+.register-logo {
+  width: 538px;
+  height: 485px;
+  margin: 0 20px; }
+
+.register-r {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 4px #ddd;
+  padding: 30px 40px 40px; }
+
+.register-r input {
+  width: 300px;
+  height: 40px;
+  padding: 0 0 0 10px;
+  margin-top: 10px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #ddd; }
+
+.register-title {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 10px; }
+
+.register-tel {
+  position: relative; }
+
+.register-code {
+  position: absolute;
+  right: -6px;
+  top: 10px;
+  width: 60px;
+  height: 42px;
+  border-left: 1px solid #ddd;
+  font-size: 11px;
+  text-align: center;
+  line-height: 40px;
+  color: #666; }
+
+.register-tips {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999; }
+
+#register-agree .register-box {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ddd; }
+
+#register-agree {
+  font-size: 12px;
+  margin-top: 10px; }
+
+.lian {
+  color: #0086e6; }
+
+.register-btn .button {
+  width: 300px;
+  height: 40px;
+  background: #0086e6;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-top: 20px; }
+
+.register-check {
+  margin-top: 10px; }
+
+.register-select {
+  font-size: 12px;
+  color: #0086e6; }
+
+.regist-footer {
+  width: 1200px;
+  margin: auto;
+  height: 28px;
+  padding: 15px 0 15px 0;
+  margin-top: 70px;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  color: #999;
+  text-align: center; }
+
+.footer-wai {
+  width: auto; }
+
+.class a {
+  color: #999;
+  font-size: 13px; }
+
+.register-ways {
+  color: #999;
+  font-size: 13px; }
+
+.register-ways:hover {
+  color: orange; }
+
+.register-check .gang {
+  color: #999;
+  padding: 0 10px; }
+
+.login-qq {
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 25px 0;
+  margin-bottom: 15px; }
+
+.qq {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #07a2db;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+.wei {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #52c335;
+  border-radius: 50%; }
+
+.icon-qq,
+.icon-weixin {
+  font-size: 18px !important;
+  color: #fff; }
+
+.error_tips {
+  height: 20px;
+  font-size: 12px;
+  color: red;
+  display: none; }

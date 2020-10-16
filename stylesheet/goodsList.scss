@@ -1,0 +1,256 @@
+.big-tb {
+    width: auto;
+    background: rgb(244, 244, 244);
+}
+
+.table {
+    width: 1200px;
+    // height: 230px;
+    margin: auto;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.table-con1,
+.table-con2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.table-con1 a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #000;
+}
+
+.table-con1 a:hover {
+    color: rgb(33, 119, 199);
+}
+
+.sort {
+    float: left;
+    padding-right: 55px;
+}
+
+.sort-list {
+    float: left;
+}
+
+.sort-list li {
+    float: left;
+    width: 85px;
+}
+
+.sort-list li a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #000;
+}
+
+.sort-list li:hover a {
+    color: orangered;
+}
+
+#blue {
+    color: rgb(33, 119, 199);
+}
+
+.table-con3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.type-list li {
+    float: left;
+    width: 85px;
+}
+
+.type-list li a {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #000;
+
+}
+
+.type-list li a:hover {
+    color: orangered;
+}
+
+.type {
+    height: 80px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #000;
+    float: left;
+    line-height: 40px;
+    padding-right: 55px;
+
+}
+
+.table-con4 {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.table-con5 {
+    width: 1200px;
+    margin: 20px auto;
+    // border: 1px solid red;
+    overflow: hidden;
+}
+
+.table-con5 img {
+    width: 240px;
+    height: 240px;
+    margin-top: 20px;
+}
+
+.refrigerator-list li {
+    // border: 1px solid #000;
+    width: 236px;
+    height: 440px;
+    background: #fff;
+    margin: 0px 16px 10px 0px;
+    padding: 20px 24px 21px;
+    position: relative;
+    float: left;
+}
+
+.message {
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.price-new {
+    color: orangered;
+    font-size: 18px;
+}
+
+.price-old {
+    font-size: 12px;
+    color: #666;
+}
+
+.commt {
+    color: #666;
+    font-size: 12px;
+}
+
+.fn {
+    color: #000;
+    font-size: 14px;
+}
+
+.fn:hover {
+    color: rgb(33, 119, 199);
+}
+
+.sell_point {
+    color: #999;
+    height: 18px;
+    font-size: 12px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.self_tag {
+    width: 35px;
+    height: 18px;
+    border: 1px solid orangered;
+    color: orangered;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 3px;
+}
+
+.fo {
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.fo .iconfont {
+    font-size: 14px;
+    color: #666;
+}
+
+.fo-l:hover {
+    color: orangered;
+}
+
+.fo-l:hover .icon-gouwuche1 {
+    color: orangered;
+}
+
+.fo-r:hover {
+    color: orangered;
+}
+
+.fo-r:hover .icon-duibi {
+    color: orangered;
+}
+
+.bing-pro {
+    position: absolute;
+    top: 0;
+    right: 0;
+    // border: 1px solid #000;
+    width: 170px;
+    height: 30px;
+}
+
+.pro-l {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 85px;
+    height: 30px;
+    color: rgb(255, 231, 185);
+    background: rgb(42, 45, 58);
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pro-r {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 85px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 102, 0);
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.fo-l,
+.fo-r {
+    font-size: 12px;
+}
+
+.tab5-footer {
+    width: 1200px;
+    margin: auto;
+}
